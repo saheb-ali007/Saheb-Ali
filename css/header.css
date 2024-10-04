@@ -2,7 +2,7 @@
 .navbar {
   position: sticky;
   top: 0;
-  background-color: rgba(189, 167, 167, 0.25);
+  background-color: rgb(89, 88, 88);
   border-bottom: 1px solid #a5f09472;
   z-index: 1000;
  }

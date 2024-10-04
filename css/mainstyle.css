@@ -72,6 +72,7 @@
     text-align: center;
     font-size: 45px;
     font-weight: 400;
+    padding-top: 50px;
 }
 
 .self-description {
@@ -82,7 +83,8 @@
 }
 
 .resume-container {
-    margin-top: 16px;
+    /* margin-top: 16px; */
+    padding-top: 100px;
 }
 
 .resume-sub-container {
@@ -97,19 +99,6 @@
     margin-bottom: 10px;
     text-decoration: underline;
     text-decoration-color: aqua;
-}
-
-.line {
-    background-color: #333;
-    width: 100px;
-    height: 2px;
-    margin: 4px 0 32px 0;
-}
-
-.inner-line {
-    background-color: rgb(59 130 246);
-    width: 30px;
-    height: 2px;
 }
 
 .resume-list{
@@ -225,6 +214,7 @@
 /* Certificates */
 .certificates-container>.subtitle-container {
     margin-top: 60px;
+    padding-top: 200px;
 }
 
 .certificates-sub-container {
@@ -325,6 +315,10 @@
     margin-top: 16px;
 }
 
+.skills-container{
+    padding-top: 150px;
+}
+
 .skills-progress-container {
     margin: 16px 0;
 }
@@ -359,7 +353,7 @@
 
 /* Portfolio */
 .portfolio-container{
-    margin-top: 50px;
+   padding-top: 200px;
 }
 
 .project-image {
@@ -473,7 +467,7 @@ form {
 .footer-link,
 footer span{
     color: #d5d5d5;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 20px;
     margin: 0;
     text-decoration: none;
@@ -485,6 +479,7 @@ footer span{
     padding-left: 500px;
 }
 
+/* Tooltip */
 .footer-link .f-tooltip{
     position: absolute;
     font-size: 14px;
@@ -492,10 +487,11 @@ footer span{
     color: black;
     padding: 4px 8px;
     border-radius: 4px ;
-    top: -30px;
+    top: -20px;
     /* left: -10px; */
     opacity: 0;
 }
+
 
 .footer-link .l-tooltip{
     position: absolute;
@@ -533,7 +529,7 @@ footer span{
     opacity: 0;
 }
 
-.footer-link:hover .f-tooltip, .l-tooltip{
+.footer-link:hover .f-tooltip{
     opacity: 1;
 }
 
