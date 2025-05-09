@@ -1,0 +1,12 @@
+* {
+  font-family: "Poppins", sans-serif;;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:rgb(99, 99, 99);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
