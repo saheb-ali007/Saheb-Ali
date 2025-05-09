@@ -7,7 +7,7 @@ export default function Home() {
        <div>
         I Love Bangladesh.
         <p>
-          Bangladesh Our country. 
+          Bangladesh Our country. git practice.
         </p>
        </div>
         
